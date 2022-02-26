@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Redressed&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&family=Redressed&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Playfair+Display&family=Redressed&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+    width: 100vw;
+    background-color: rgb(51, 51, 51);
+}
+.main
+{
+    width: 85vw;
+    height: 85vh;
+    margin-left: 8vw;
+    margin-top: 7vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 12px 10px 20px 10px rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.head 
+{
+    margin-left: 28vw;
+    margin-top: 5vh;
+}
+.box
+{
+    width: 85vw;
+    height: 85vh;
+    /*margin-left: 8vw;
+    margin-top: 7vh; */
+    /* background-color: rgb(156, 5, 5); */
+    display: flex;
+    /* box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+    border-radius: 5px; */
+}
+.imgbox
+{
+    width: 43vw;
+}
+.img
+{
+    width: 23.5vw;
+    height: 44.5vh;
+    background-image: url(./Lata-Mangeshkar_0_2.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    box-sizing: border-box ;
+    margin-top: 10vh;
+    margin-left: 10.5vw;
+    border-radius: 500px;
+    border: 1px solid;
+    box-shadow: 0 0 18px 2.5px rgb(0, 0, 0);
+}
+.name h2
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif; 
+    font-family: 'Playfair Display', serif;
+    margin-left: 13.5vw;
+    margin-top: 2vh;
+    letter-spacing: 2px;
+}
+.name p
+{
+    margin-top: 1vh;
+    width: 21.1vw;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    margin-left: 16.5vw;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.vl 
+{
+    border: 1px dashed rgb(0, 0, 0);
+    height: 63vh;
+    margin-top: 8vh;
+    margin-right: 1.5vw;
+}
+.contant
+{
+    width: 44.5vw;
+    /* background-color: rgba(193, 235, 9, 0.63); */
+}
+.contant h1
+{
+    margin-left: 15vw;
+    margin-top: 5vh;
+    font-family: 'Redressed', cursive;
+    color: rgb(22, 20, 20);
+}
+.contant p
+{
+    margin-top: 2vh;
+    text-align: justify;
+    width: 40vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    font-size: 13.5px;
+    font-weight: 900;
+}
+.btn
+{
+    margin-left: 32vh;
+    margin-top: 2vh;
+}
+.btn1
+{
+    padding: 8px;
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
